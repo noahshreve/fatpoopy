@@ -10,10 +10,10 @@ var end = new Date('03/14/2022 7:51 PM');
     function showRemaining() {
         var now = new Date();
         var distance = end - now;
-        if (distance < 0) {
+        if (distance > 0) {
 
             clearInterval(timer);
-            document.getElementById('countdown').innerHTML = 'EXPIRED!';
+            document.getElementById('countdown').innerHTML = 'Well Poop!';
 
             return;
         }
