@@ -1,5 +1,5 @@
 
-var end = new Date('02/19/2012 10:1 AM');
+var end = new Date('03/14/2022 7:51 PM');
 
     var _second = 1000;
     var _minute = _second * 60;
